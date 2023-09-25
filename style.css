@@ -1,0 +1,87 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-size: x-large;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#image{
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid red;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+.container
+{
+    display: flex;
+    
+}
+
+.source{
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.nav_container{
+    display: inline;
+    float: right;
+    margin-right: 5rem;
+   
+}
+
+a{
+    margin-left: 3rem;
+    text-decoration: none;
+    color: rgb(137, 103, 103);
+}
+nav span{
+    margin-left: 2rem;
+}
+nav{
+    background-color: rgb(43, 37, 28);
+    color: rgb(238, 235, 242);
+}
+
+a:hover{
+    background-color: brown;
+    color: white;
+}
+
+.container{
+    font-size: 4rem;
+}
+
+.text{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+
+@keyframes example {
+    from {top: 0px; color: yellow; visibility: none; opacity: 0.1;}
+    to {top: 15rem; color: rgb(237, 237, 244); visibility: visible; opacity: 1.0;}
+  }
+
+.source{
+    margin-left: 1.3rem;
+}
+
+.src1{
+    margin-left: 5rem;
+    margin-bottom: 10rem;
+    margin-top: 190%;
+}
